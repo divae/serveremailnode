@@ -1,7 +1,7 @@
 var request = require("request"),
     assert = require('assert'),
     helloWorld = require("../index.js"),
-    base_url = "http://localhost:3000/";
+    base_url = "http://localhost:5000/";
 
 describe("Hello World Server", function() {
   describe("GET /", function() {

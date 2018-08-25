@@ -6,8 +6,9 @@ app.get('/', function(req, res){
   res.send('Hello World');
 });
 
-var server = app.listen(3000, function(){
-  console.log('Magic is happening on port 3000');
+const PORT = process.env.PORT || 5000;
+var server = app.listen(PORT, function(){
+  console.log('Magic is happening on port 5000');
 });
 
 exports.closeServer = function(){
