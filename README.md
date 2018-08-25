@@ -13,11 +13,11 @@ Is necessary there are installing anything text editor to do changes, the mine i
 * [Visual Estudio Code](https://code.visualstudio.com/download) - The edit text used
 
 Required:
-* [NodeJs](https://nodejs.org/en/download/current/) - The web framework used
+* [NodeJs](https://nodejs.org/en/download/current/) - Server JavaScript
 
 ## Deployment
 
-Open the terminal and navegato to the proyect folder
+Open the terminal and go to the proyect folder
 
 ```
 cd C:\Users\Estela\Proyects\serveremailnode
@@ -57,5 +57,8 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Helper Documents
+
+* [test](https://puppet.com/docs/pipelines-for-apps/team/application-nodejs-mocha.html) - example testing
 
 

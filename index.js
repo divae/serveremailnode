@@ -1,12 +1,15 @@
-const express = require('express');
-const app = express();
+var express = require('express');
+var app = express();
+var exports = module.exports = {};
 
-app.get('/', ( req, res) => {
-    res.send({ 
-        hello: 'world', 
-        repository:'https://github.com/divae/serveremailnode'
-    });
+app.get('/', function(req, res){
+  res.send('Hello World');
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT);
+var server = app.listen(3000, function(){
+  console.log('Magic is happening on port 3000');
+});
+
+exports.closeServer = function(){
+  server.close();
+};
