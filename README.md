@@ -19,27 +19,21 @@ Required:
 
 Open the terminal and navegato to the proyect folder
 
-...
-
+```
 cd C:\Users\Estela\Proyects\serveremailnode
-
-...
+```
 
 now write in the terminal 'node index.js'
 
-...
-
+```
 node index.js
-
-...
+```
 
 open the browser in http://localhost:5000/
 
-...
-
+``` 
 http://localhost:5000/
-
-...
+```
 
 ## Built With
 
