@@ -1,16 +1,11 @@
 # FullstackReactCode Example Server
 
-This server has been built from the course course on Udemy.com. See [here](https://www.udemy.com/node-with-react-fullstack-web-development)
-
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This server has been built from the course on Udemy.com. You can find this course [here](https://www.udemy.com/node-with-react-fullstack-web-development)
 
 ### Prerequisites
 
-Is necessary there are installing anything text editor to do changes, the mine is
-* [Visual Estudio Code](https://code.visualstudio.com/download) - The edit text used
+Is necessary have any text editor to have changes, mine is
+* [Visual Studio Code](https://code.visualstudio.com/download) - The edit text used
 
 Required:
 * [NodeJs](https://nodejs.org/en/download/current/) - Server JavaScript
@@ -20,7 +15,7 @@ Required:
 Open the terminal and go to the proyect folder
 
 ```
-cd C:\Users\Estela\Proyects\serveremailnode
+cd C:\Users\USERNAME\Proyects\serveremailnode
 ```
 
 now write in the terminal 'node index.js'
@@ -51,7 +46,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ## Authors
 
 * **Estela Medrano** - *Initial work* - [serveremailnode](https://github.com/divae/serveremailnode)
-* **Stephen Grider** - *The curse* - [FullstackReactCode](https://github.com/StephenGrider/FullstackReactCode)
+* **Stephen Grider** - *The course* - [FullstackReactCode](https://github.com/StephenGrider/FullstackReactCode)
 
 ## License
 
