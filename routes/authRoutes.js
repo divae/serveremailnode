@@ -12,9 +12,10 @@ module.exports = (app) => {
     //user grant permission, take the code from the url
     app.get(
         '/auth/google/callback',
-        passport.authenticate('google',{
-        scope: ['profile','email']
-        })
+        passport.authenticate('google'),
+        (req,res) => {
+            res.redirect('/surveys');
+        }
     );
 
     app.get('/api/logout', (req,res) =>{

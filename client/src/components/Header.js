@@ -7,7 +7,7 @@ class Header extends Component {
             case null:
                 return 'Still deciding';
             case false:
-                return <li><a href="/auth/google" className="left brand-logo">Login With Google</a></li>;
+                return <li><a href="/auth/google">Login With Google</a></li>;
             default:
                 return <li><a href="/auth/google">Im loggin in</a></li>;
 
