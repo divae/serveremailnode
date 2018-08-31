@@ -1,6 +1,10 @@
 {
   "name": "serveremailnode",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.11.3",
+    "npm": "6.4.0"
+  },
   "description": "send emails and payments",
   "main": "index.js",
   "scripts": {
