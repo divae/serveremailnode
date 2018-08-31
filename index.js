@@ -22,8 +22,9 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 require('./routes/authRoutes')(app);
-
+console.log(2);
 if(process.env.NODE_ENV === 'production'){
+  console.log(1);
   //express vill serve up production assets
   //like our main.jf file, or main.css file!
   app.use(express.static('client/built'));
