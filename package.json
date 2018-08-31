@@ -24,7 +24,8 @@
   "keywords": [
     "node",
     "server",
-    "emails"
+    "emails",
+    "heroku"
   ],
   "bugs": {
     "url": "https://github.com/divae/serveremailnode/issues"
