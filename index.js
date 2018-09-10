@@ -23,16 +23,16 @@ app.use(passport.session());
 
 require('./routes/authRoutes')(app);
 
-if(process.env.NODE_ENV === 'production'){
- 
+
+if (process.env.NODE_ENV === 'production') {
   //express vill serve up production assets
   //like our main.jf file, or main.css file!
-  app.use(express.static('client/built'));
+  app.use(express.static('client/build'));
   //empress will serve up the nde.jtml file
   //if ti doesn't recognize the route
   const path = require('path');
-  app.get('*',(req,res)=>{
-    res.sendFile(path.resolve(__dirname, 'client','build','index.html'));
+  app.get('*', (req, res) => {
+      res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
   });
 }
 
