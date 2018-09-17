@@ -1,15 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SurveyNew from 'components/surveys/SurveyNew';
 
 const Dashboard = () => {
     return(
         <div>
-            Dashboard
-            <div class="fixed-action-btn">
-                <Link to="/surveys/news" class="btn-floating btn-large red">
-                    <i class="material-icons">add</i>
-                </Link>              
-            </div>
+            <SurveyNew />
         </div>
     );
 };
