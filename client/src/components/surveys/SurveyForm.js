@@ -45,13 +45,13 @@ class SurveyForm extends Component {
 function validate(values){
     const errors = {};
 
+    errors.emails = validateEmails(values.emails || '');
+
     _.each(FIELDS, ({name}) =>{
         if(!values[name]){
             errors[name] = `You must provide a ${name}`;
         }
     });
-
-    errors.emails = validateEmails(values.emails || '');
 
     return errors;
 }
