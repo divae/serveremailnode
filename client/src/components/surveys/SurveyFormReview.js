@@ -1,11 +1,18 @@
+//SurveyFormReiew shows user their form inputs for review
 import React from 'react';
 
-const SurveyReview = () => {
+const SurveyFormReview = ({ onCancel}) => {
     return(
         <div>
             <h5>Please confirm your entries</h5>
+            <button 
+                className="yellow darkeen-3 btn-flat"
+                onClick={onCancel}
+            >
+            Back
+            </button>
         </div>
     );
 }
 
-export default SurveyReview;
+export default SurveyFormReview;
