@@ -14,7 +14,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run webhook\"",
     "test": "mocha",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
-    "webhook": "lt -p 5000 -s subdominioaleatoriodepruebaquetequema"
+    "webhook": "forever sendgrid_webhook.js"
   },
   "author": "Estela Medrano Jiménez",
   "license": "ISC",
@@ -39,11 +39,15 @@
     "express": "^4.16.3",
     "localtunnel": "^1.9.1",
     "mongoose": "^5.2.9",
+    "ngrok": "^3.0.1",
     "nodemon": "^1.18.3",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0",
     "request": "^2.88.0",
     "sendgrid": "^5.2.3",
     "stripe": "^6.10.0"
+  },
+  "devDependencies": {
+    "forever": "^0.15.3"
   }
 }
